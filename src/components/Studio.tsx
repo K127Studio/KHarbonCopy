@@ -13,6 +13,7 @@ import { GlyphCard, GlyphDetail, STAGE_TABS } from "./GlyphViews";
 import LoadingOverlay, { ProgressMsg } from "./LoadingOverlay";
 import FontSelect from "./FontSelect";
 import Wordmark from "./Wordmark";
+import LinkButton from "./LinkButton";
 import { estimateAnalysis, fmtDuration } from "@/lib/analysis/estimate";
 import type { RankEntry } from "@/lib/analysis/rank";
 import { Heatmap, LinePlot, PolarPlot, ringsPath } from "./charts";
@@ -276,14 +277,10 @@ export default function Studio() {
               </div>
             ) : null}
           </div>
-          <a href="/why" target="_blank" rel="noopener noreferrer"
-            className="hidden shrink-0 items-center gap-1.5 rounded-full border border-line px-3 py-1 text-[11px] text-muted transition hover:border-accent hover:text-ink md:inline-flex">
-            Why <span aria-hidden>↗</span>
-          </a>
-          <a href="/how-it-works" target="_blank" rel="noopener noreferrer"
-            className="hidden shrink-0 items-center gap-1.5 rounded-full border border-transparent px-3 py-1 text-[11px] text-white bg-brand-red transition hover:border-white md:inline-flex">
-            ∑ How it works <span aria-hidden>↗</span>
-          </a>
+          <span className="hidden shrink-0 items-center gap-2 md:inline-flex">
+            <LinkButton href="/why" variant="outline" external>Why</LinkButton>
+            <LinkButton href="/how-it-works" variant="red" external>∑ How it works</LinkButton>
+          </span>
           <Stepper current={screen} onSelect={go} steps={stepsDef} />
         </div>
         <div className="absolute inset-x-0 bottom-0 h-0.5 overflow-hidden">
@@ -333,11 +330,7 @@ export default function Studio() {
                   ))}
                 </ol>
                 {/* opens in a new tab so a loaded font and the current step are not lost */}
-                <a href="/why" target="_blank" rel="noopener noreferrer"
-                  className="group flex items-center justify-center gap-2 rounded-full bg-accent whitespace-nowrap px-4 py-3 text-center text-xs font-semibold uppercase tracking-[0.04em] sm:gap-3 sm:px-6 sm:py-3 sm:text-base sm:tracking-[0.14em] text-accent-ink shadow-lg shadow-accent/20 transition hover:-translate-y-0.5 hover:shadow-accent/40 xl:text-lg">
-                  The story behind the trace
-                  <span aria-hidden className="transition-transform group-hover:translate-x-1">→</span>
-                </a>
+                <LinkButton href="/why" variant="blue" size="lg" external arrow="→">The story behind the trace</LinkButton>
               </div>
               <div className="flex min-h-[260px] min-w-0 flex-col gap-4">
                 <DropZone fill={!src} accept=".ttf,.otf,.woff,.woff2" onFile={onSource} label={srcName || "Drop a font here or click to browse"} sub={src ? "click or drop to replace" : "TTF · OTF · WOFF · WOFF2"} />

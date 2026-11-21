@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Wordmark from "@/components/Wordmark";
+import LinkButton from "@/components/LinkButton";
 import Toc from "@/components/explainer/Toc";
 import { DistanceDemo, FourierDemo, LineSearchDemo, WaveDemo } from "@/components/explainer/Demos";
 
@@ -104,7 +105,11 @@ export default function HowItWorks() {
             <img src="/images/logo.png" alt="KHarbonCopy logo" className="h-8 w-auto" />
             <Wordmark className="text-lg font-semibold tracking-tight" />
           </a>
-          <span className="flex items-center gap-4 text-xs text-muted"><span className="hidden sm:inline">The mathematics behind the tool · MIT License</span><a href="/why" className="transition hover:text-accent">Why we built it</a></span>
+          <nav className="flex items-center gap-2">
+            <span className="mr-2 hidden text-xs text-muted lg:inline">The mathematics behind the tool · MIT License</span>
+            <span className="hidden sm:contents"><LinkButton href="/why" variant="outline">Why</LinkButton></span>
+            <LinkButton href="/" variant="blue">Open the tool</LinkButton>
+          </nav>
         </div>
       </header>
 

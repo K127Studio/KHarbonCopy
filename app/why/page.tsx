@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Wordmark from "@/components/Wordmark";
+import LinkButton from "@/components/LinkButton";
 import Toc from "@/components/explainer/Toc";
 
 const whyDescription =
@@ -128,9 +129,9 @@ export default function WhyPage() {
             <img src="/images/logo.png" alt="KHarbonCopy logo" className="h-8 w-auto" />
             <Wordmark className="text-lg font-semibold tracking-tight" />
           </a>
-          <nav className="flex items-center gap-4 text-xs text-muted">
-            <a href="/how-it-works" className="hidden whitespace-nowrap transition hover:text-accent sm:inline">How it works</a>
-            <a href="/" className="whitespace-nowrap rounded-full bg-brand-red px-3 py-1 text-white transition hover:opacity-90">Open the tool</a>
+          <nav className="flex items-center gap-2">
+            <span className="hidden sm:contents"><LinkButton href="/how-it-works" variant="red">∑ How it works</LinkButton></span>
+            <LinkButton href="/" variant="blue">Open the tool</LinkButton>
           </nav>
         </div>
       </header>
@@ -263,9 +264,7 @@ export default function WhyPage() {
             up the pen and the ink and draws their own work.
           </p>
           <div className="pt-4">
-            <a href="/" className="inline-flex items-center gap-2 rounded-full bg-brand-red px-5 py-2.5 text-sm font-semibold text-white transition hover:opacity-90">
-              Start from a trace <span aria-hidden>→</span>
-            </a>
+            <LinkButton href="/" variant="blue" size="md" arrow="→">Start from a trace</LinkButton>
           </div>
         </Section>
 

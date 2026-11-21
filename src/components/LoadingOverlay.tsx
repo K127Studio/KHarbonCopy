@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import LinkButton from "./LinkButton";
 
 interface Curiosity {
   id: number;
@@ -113,10 +114,9 @@ export default function LoadingOverlay({ title, msg, frac, estimate }: { title: 
             <span className="ml-3 font-mono text-[11px] text-muted">{(i % facts.length) + 1} / {facts.length}</span>
           </div>
         )}
-        <a href="/how-it-works" target="_blank" rel="noopener noreferrer"
-          className="mt-10 inline-flex w-fit items-center gap-2 rounded-full border border-brand-red/30 bg-brand-red/10 px-4 py-2 text-sm text-white transition hover:bg-brand-red/20">
-          While you wait: how Fourier series, distance fields and line searches shape your font ↗
-        </a>
+        <LinkButton href="/how-it-works" variant="red" size="md" external className="mt-10 w-fit">
+          While you wait: how Fourier series, distance fields and line searches shape your font
+        </LinkButton>
       </div>
     </div>
   );
