@@ -1,0 +1,445 @@
+{
+  "reference": [
+    {
+      "id": "lato",
+      "name": "Lato",
+      "category": "sans-serif",
+      "trait": "humanist",
+      "files": [
+        "/fonts/reference/Lato-Thin.ttf",
+        "/fonts/reference/Lato-ExtraLight.ttf",
+        "/fonts/reference/Lato-Light.ttf",
+        "/fonts/reference/Lato-Regular.ttf",
+        "/fonts/reference/Lato-Medium.ttf",
+        "/fonts/reference/Lato-SemiBold.ttf",
+        "/fonts/reference/Lato-Bold.ttf",
+        "/fonts/reference/Lato-ExtraBold.ttf",
+        "/fonts/reference/Lato-Black.ttf"
+      ]
+    },
+    {
+      "id": "inter",
+      "name": "Inter",
+      "category": "sans-serif",
+      "trait": "neo-grotesk",
+      "files": [
+        "/fonts/reference/Inter-VF-opsz_wght.ttf"
+      ]
+    },
+    {
+      "id": "montserrat",
+      "name": "Montserrat",
+      "category": "sans-serif",
+      "trait": "geometric, wide",
+      "files": [
+        "/fonts/reference/Montserrat-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "oswald",
+      "name": "Oswald",
+      "category": "sans-serif",
+      "trait": "condensed",
+      "files": [
+        "/fonts/reference/Oswald-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "notoserif",
+      "name": "Noto Serif",
+      "category": "serif",
+      "trait": "transitional, low contrast",
+      "files": [
+        "/fonts/reference/NotoSerif-VF-wdth_wght.ttf"
+      ]
+    },
+    {
+      "id": "sourceserif4",
+      "name": "Source Serif 4",
+      "category": "serif",
+      "trait": "modern text",
+      "files": [
+        "/fonts/reference/SourceSerif4-VF-opsz_wght.ttf"
+      ]
+    },
+    {
+      "id": "playfair",
+      "name": "Playfair Display",
+      "category": "serif",
+      "trait": "didone, high contrast",
+      "files": [
+        "/fonts/reference/PlayfairDisplay-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "ebgaramond",
+      "name": "EB Garamond",
+      "category": "serif",
+      "trait": "old-style",
+      "files": [
+        "/fonts/reference/EBGaramond-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "robotoslab",
+      "name": "Roboto Slab",
+      "category": "slab-serif",
+      "trait": "neutral slab",
+      "files": [
+        "/fonts/reference/RobotoSlab-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "bitter",
+      "name": "Bitter",
+      "category": "slab-serif",
+      "trait": "humanist slab",
+      "files": [
+        "/fonts/reference/Bitter-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "arvo",
+      "name": "Arvo",
+      "category": "slab-serif",
+      "trait": "geometric slab",
+      "files": [
+        "/fonts/reference/Arvo-Regular.ttf",
+        "/fonts/reference/Arvo-Bold.ttf"
+      ]
+    },
+    {
+      "id": "zillaslab",
+      "name": "Zilla Slab",
+      "category": "slab-serif",
+      "trait": "contrasted slab",
+      "files": [
+        "/fonts/reference/ZillaSlab-Light.ttf",
+        "/fonts/reference/ZillaSlab-Regular.ttf",
+        "/fonts/reference/ZillaSlab-Medium.ttf",
+        "/fonts/reference/ZillaSlab-SemiBold.ttf",
+        "/fonts/reference/ZillaSlab-Bold.ttf"
+      ]
+    },
+    {
+      "id": "robotomono",
+      "name": "Roboto Mono",
+      "category": "monospace",
+      "trait": "grotesk mono",
+      "files": [
+        "/fonts/reference/RobotoMono-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "jetbrainsmono",
+      "name": "JetBrains Mono",
+      "category": "monospace",
+      "trait": "tall x-height",
+      "files": [
+        "/fonts/reference/JetBrainsMono-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "ibmplexmono",
+      "name": "IBM Plex Mono",
+      "category": "monospace",
+      "trait": "slab-serif mono",
+      "files": [
+        "/fonts/reference/IBMPlexMono-Thin.ttf",
+        "/fonts/reference/IBMPlexMono-ExtraLight.ttf",
+        "/fonts/reference/IBMPlexMono-Light.ttf",
+        "/fonts/reference/IBMPlexMono-Regular.ttf",
+        "/fonts/reference/IBMPlexMono-Medium.ttf",
+        "/fonts/reference/IBMPlexMono-SemiBold.ttf",
+        "/fonts/reference/IBMPlexMono-Bold.ttf"
+      ]
+    },
+    {
+      "id": "spacemono",
+      "name": "Space Mono",
+      "category": "monospace",
+      "trait": "geometric, quirky",
+      "files": [
+        "/fonts/reference/SpaceMono-Regular.ttf",
+        "/fonts/reference/SpaceMono-Bold.ttf"
+      ]
+    },
+    {
+      "id": "caveat",
+      "name": "Caveat",
+      "category": "handwriting",
+      "trait": "casual pen",
+      "files": [
+        "/fonts/reference/Caveat-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "dancingscript",
+      "name": "Dancing Script",
+      "category": "handwriting",
+      "trait": "connected script",
+      "files": [
+        "/fonts/reference/DancingScript-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "kalam",
+      "name": "Kalam",
+      "category": "handwriting",
+      "trait": "print, felt pen",
+      "files": [
+        "/fonts/reference/Kalam-Light.ttf",
+        "/fonts/reference/Kalam-Regular.ttf",
+        "/fonts/reference/Kalam-Bold.ttf"
+      ]
+    },
+    {
+      "id": "permanentmarker",
+      "name": "Permanent Marker",
+      "category": "handwriting",
+      "trait": "marker",
+      "files": [
+        "/fonts/reference/PermanentMarker-Regular.ttf"
+      ]
+    },
+    {
+      "id": "bebasneue",
+      "name": "Bebas Neue",
+      "category": "display",
+      "trait": "condensed caps",
+      "files": [
+        "/fonts/reference/BebasNeue-Regular.ttf"
+      ]
+    },
+    {
+      "id": "abrilfatface",
+      "name": "Abril Fatface",
+      "category": "display",
+      "trait": "fat face didone",
+      "files": [
+        "/fonts/reference/AbrilFatface-Regular.ttf"
+      ]
+    },
+    {
+      "id": "righteous",
+      "name": "Righteous",
+      "category": "display",
+      "trait": "rounded geometric",
+      "files": [
+        "/fonts/reference/Righteous-Regular.ttf"
+      ]
+    },
+    {
+      "id": "archivoblack",
+      "name": "Archivo Black",
+      "category": "display",
+      "trait": "heavy grotesk",
+      "files": [
+        "/fonts/reference/ArchivoBlack-Regular.ttf"
+      ]
+    }
+  ],
+  "khmer": [
+    {
+      "id": "kantumruypro",
+      "name": "Kantumruy Pro",
+      "style": "sans-serif",
+      "files": [
+        "/fonts/khmer/KantumruyPro-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "notosanskhmer",
+      "name": "Noto Sans Khmer",
+      "style": "sans-serif",
+      "files": [
+        "/fonts/khmer/NotoSansKhmer-VF-wdth_wght.ttf"
+      ]
+    },
+    {
+      "id": "notoserifkhmer",
+      "name": "Noto Serif Khmer",
+      "style": "serif",
+      "files": [
+        "/fonts/khmer/NotoSerifKhmer-VF-wdth_wght.ttf"
+      ]
+    },
+    {
+      "id": "hanuman",
+      "name": "Hanuman",
+      "style": "serif",
+      "files": [
+        "/fonts/khmer/Hanuman-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "nokora",
+      "name": "Nokora",
+      "style": "sans-serif",
+      "files": [
+        "/fonts/khmer/Nokora-VF-wght.ttf"
+      ]
+    },
+    {
+      "id": "battambang",
+      "name": "Battambang",
+      "style": "serif",
+      "files": [
+        "/fonts/khmer/Battambang-Thin.ttf",
+        "/fonts/khmer/Battambang-Light.ttf",
+        "/fonts/khmer/Battambang-Regular.ttf",
+        "/fonts/khmer/Battambang-Bold.ttf",
+        "/fonts/khmer/Battambang-Black.ttf"
+      ]
+    },
+    {
+      "id": "suwannaphum",
+      "name": "Suwannaphum",
+      "style": "serif",
+      "files": [
+        "/fonts/khmer/Suwannaphum-Thin.ttf",
+        "/fonts/khmer/Suwannaphum-Light.ttf",
+        "/fonts/khmer/Suwannaphum-Regular.ttf",
+        "/fonts/khmer/Suwannaphum-Bold.ttf",
+        "/fonts/khmer/Suwannaphum-Black.ttf"
+      ]
+    },
+    {
+      "id": "content",
+      "name": "Content",
+      "style": "sans-serif",
+      "files": [
+        "/fonts/khmer/Content-Regular.ttf",
+        "/fonts/khmer/Content-Bold.ttf"
+      ]
+    },
+    {
+      "id": "kdamthmorpro",
+      "name": "Kdam Thmor Pro",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/KdamThmorPro-Regular.ttf"
+      ]
+    },
+    {
+      "id": "koulen",
+      "name": "Koulen",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/Koulen-Regular.ttf"
+      ]
+    },
+    {
+      "id": "moul",
+      "name": "Moul",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/Moul-Regular.ttf"
+      ]
+    },
+    {
+      "id": "moulpali",
+      "name": "Moulpali",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/Moulpali-Regular.ttf"
+      ]
+    },
+    {
+      "id": "bokor",
+      "name": "Bokor",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/Bokor-Regular.ttf"
+      ]
+    },
+    {
+      "id": "dangrek",
+      "name": "Dangrek",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/Dangrek-Regular.ttf"
+      ]
+    },
+    {
+      "id": "angkor",
+      "name": "Angkor",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/Angkor-Regular.ttf"
+      ]
+    },
+    {
+      "id": "bayon",
+      "name": "Bayon",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/Bayon-Regular.ttf"
+      ]
+    },
+    {
+      "id": "chenla",
+      "name": "Chenla",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/Chenla.ttf"
+      ]
+    },
+    {
+      "id": "metal",
+      "name": "Metal",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/Metal-Regular.ttf"
+      ]
+    },
+    {
+      "id": "siemreap",
+      "name": "Siemreap",
+      "style": "sans-serif",
+      "files": [
+        "/fonts/khmer/Siemreap.ttf"
+      ]
+    },
+    {
+      "id": "preahvihear",
+      "name": "Preahvihear",
+      "style": "sans-serif",
+      "files": [
+        "/fonts/khmer/Preahvihear-Regular.ttf"
+      ]
+    },
+    {
+      "id": "odormeanchey",
+      "name": "Odor Mean Chey",
+      "style": "serif",
+      "files": [
+        "/fonts/khmer/OdorMeanChey-Regular.ttf"
+      ]
+    },
+    {
+      "id": "taprom",
+      "name": "Taprom",
+      "style": "display",
+      "files": [
+        "/fonts/khmer/Taprom-Regular.ttf"
+      ]
+    },
+    {
+      "id": "fasthand",
+      "name": "Fasthand",
+      "style": "handwriting",
+      "files": [
+        "/fonts/khmer/Fasthand-Regular.ttf"
+      ]
+    },
+    {
+      "id": "freehand",
+      "name": "Freehand",
+      "style": "handwriting",
+      "files": [
+        "/fonts/khmer/Freehand-Regular.ttf"
+      ]
+    }
+  ]
+}

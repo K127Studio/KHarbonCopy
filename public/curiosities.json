@@ -1,0 +1,277 @@
+[
+  {
+    "id": 1,
+    "category": "Records",
+    "fact": "According to the Guinness World Records, the Khmer alphabet is the largest alphabet in the world, containing 74 letters in total (33 consonants, 23 dependent vowels, 12 independent vowels, and several diacritics)."
+  },
+  {
+    "id": 2,
+    "category": "Origins",
+    "fact": "The Khmer script is derived from the Pallava script of southern India, which itself evolved from the ancient Brahmi script."
+  },
+  {
+    "id": 3,
+    "category": "History",
+    "fact": "The oldest known inscription in the Khmer script dates back to 611 AD and was found at Angkor Borei in Takeo Province, Cambodia."
+  },
+  {
+    "id": 4,
+    "category": "Classification",
+    "fact": "Technically, the Khmer writing system is an abugida (or alphasyllabary) rather than a true alphabet, because every consonant carries an inherent vowel sound that is modified by vowel signs."
+  },
+  {
+    "id": 5,
+    "category": "Phonetics",
+    "fact": "Khmer consonants are divided into two series or registers: the 'a-series' (first series) and the 'o-series' (second series), which alter the pronunciation of the attached vowels."
+  },
+  {
+    "id": 6,
+    "category": "Vowels",
+    "fact": "Because of the two consonant series, a single written vowel symbol in Khmer can be pronounced in two completely different ways depending on which consonant it is attached to."
+  },
+  {
+    "id": 7,
+    "category": "Vowel Placement",
+    "fact": "Khmer dependent vowels cannot stand alone; they must attach to a consonant and can be written to the left, right, above, below, or even completely surrounding the consonant."
+  },
+  {
+    "id": 8,
+    "category": "Independent Vowels",
+    "fact": "Khmer features 12 'independent vowels' that can stand alone without a consonant, primarily used in loanwords from Sanskrit and Pali."
+  },
+  {
+    "id": 9,
+    "category": "Subscript Consonants",
+    "fact": "When two consonants appear together without a vowel between them, the second consonant is written in a special reduced form directly underneath the first, known as a 'coeng' (literally 'foot')."
+  },
+  {
+    "id": 10,
+    "category": "Typography",
+    "fact": "Nearly every Khmer consonant has a unique subscript ('coeng') form, meaning learners effectively have to memorize two shapes for almost every consonant."
+  },
+  {
+    "id": 11,
+    "category": "Spacing",
+    "fact": "Traditional Khmer text does not use spaces between individual words; spaces are used instead like commas or periods to mark pauses, clauses, or the end of sentences."
+  },
+  {
+    "id": 12,
+    "category": "Regional Influence",
+    "fact": "The Khmer script spread across mainland Southeast Asia at the height of the Khmer Empire and shaped the writing systems later adopted in other countries of the region."
+  },
+  {
+    "id": 13,
+    "category": "Tones",
+    "fact": "Unlike several neighbouring languages, Khmer is non-tonal: the pitch of a word does not change its meaning."
+  },
+  {
+    "id": 14,
+    "category": "Calligraphy Styles",
+    "fact": "Khmer has several distinct script styles, the two most prominent being 'Aksar Chrieng' (slanted script, used for general body text and handwriting) and 'Aksar Mul' (round script, used for titles, headings, and religious texts)."
+  },
+  {
+    "id": 15,
+    "category": "Sacred Script",
+    "fact": "'Aksar Mul' (round script) is also traditionally used in Cambodian sacred tattoos (Sak Yant) and magical talismans (Yantra)."
+  },
+  {
+    "id": 16,
+    "category": "Numerals",
+    "fact": "Khmer has its own set of base-10 numerals (០, ១, ២, ៣, ៤, ៥, ៦, ៧, ៨, ៩) that are widely used in everyday life alongside Arabic numerals."
+  },
+  {
+    "id": 17,
+    "category": "Decorative Elements",
+    "fact": "Many Khmer letters feature a distinctive wavy top stroke called a 'sok' (literally 'hair'), which gives the script its ornate, flowing appearance."
+  },
+  {
+    "id": 18,
+    "category": "Directionality",
+    "fact": "Like English and other Latin-based scripts, Khmer is written horizontally from left to right."
+  },
+  {
+    "id": 19,
+    "category": "Case",
+    "fact": "The Khmer alphabet has no distinction between uppercase and lowercase letters."
+  },
+  {
+    "id": 20,
+    "category": "Obsolete Letters",
+    "fact": "Two of the 35 historical consonants (ឝ and ឞ) are considered obsolete in modern Khmer and are only preserved for transcribing ancient Pali and Sanskrit texts, leaving 33 active consonants."
+  },
+  {
+    "id": 21,
+    "category": "Punctuation",
+    "fact": "Khmer uses unique traditional punctuation marks, such as 'Khan' (។) which acts like a period, and 'Bariyoosan' (៕) which marks the complete end of a chapter or entire text."
+  },
+  {
+    "id": 22,
+    "category": "Repetition Symbol",
+    "fact": "Instead of writing a word twice to indicate pluralization or emphasis, Khmer uses a special symbol called 'Lek To' (ៗ) after the word to signal that it should be read twice."
+  },
+  {
+    "id": 23,
+    "category": "Digital History",
+    "fact": "Khmer was officially added to the Unicode Standard in September 1999 with the release of version 3.0, occupying the U+1780 to U+17FF block."
+  },
+  {
+    "id": 24,
+    "category": "Minority Languages",
+    "fact": "Beyond the Khmer language itself, the Khmer script is also used in Cambodia to write indigenous minority languages such as Krung, Tampuan, and Brao."
+  },
+  {
+    "id": 25,
+    "category": "Diacritics",
+    "fact": "Khmer uses specialized diacritic marks, such as 'Robat' (៌), which silences a consonant above which it is placed, reflecting historical Sanskrit pronunciations that have disappeared from modern speech."
+  },
+  {
+    "id": 26,
+    "category": "Colonial History",
+    "fact": "In 1943, the French colonial administration passed a law attempting to abolish the Khmer script and replace it with a Romanized alphabet in schools and government, sparking the 'Umbrella War' protests led by Buddhist monks before the reform was abandoned in 1945."
+  },
+  {
+    "id": 27,
+    "category": "Unicode",
+    "fact": "Beyond its main Unicode block (U+1780–U+17FF), Khmer has a dedicated secondary Unicode block called 'Khmer Symbols' (U+19E0–U+19FF) containing 32 special characters exclusively used to represent lunar calendar dates."
+  },
+  {
+    "id": 28,
+    "category": "Orthography",
+    "fact": "The letter 'ប' (bâ) changes its visual shape into a distinct ligature ('បា') when combined with the dependent vowel 'ា' (aa) specifically to prevent it from looking identical to the consonant 'ហ' (hâ)."
+  },
+  {
+    "id": 29,
+    "category": "Subscript Rules",
+    "fact": "Out of the 33 modern consonants, only one consonant—'ឡ' (lâ)—does not have a subscript ('coeng') form in modern usage."
+  },
+  {
+    "id": 30,
+    "category": "Typography",
+    "fact": "When the consonant 'ញ' (nhô) takes a subscript beneath it, its lower curve disappears; however, when 'ញ' is stacked onto itself ('ញ្ញ'), the subscript appears as a miniature version of the entire letter."
+  },
+  {
+    "id": 31,
+    "category": "Phonetics",
+    "fact": "In standard Cambodian dialects, the letter 'រ' (rô) becomes completely silent when it appears at the end of a word (for example, 'ខ្មែរ' is spelled 'Khmer' but pronounced 'Khmae')."
+  },
+  {
+    "id": 32,
+    "category": "Phonetics",
+    "fact": "When consonants representing a 'k' sound ('ក', 'ខ', 'គ', 'ឃ') appear at the end of a syllable after certain vowels, they are pronounced as an abrupt glottal stop rather than a hard 'k'."
+  },
+  {
+    "id": 33,
+    "category": "Consonant Clusters",
+    "fact": "In a stacked consonant cluster, the subscript consonant usually overrides the main consonant to determine the vowel's pronunciation series—unless the subscript is a 'weak' consonant (such as a nasal or liquid like 'ម', 'ន', 'រ', or 'ល')."
+  },
+  {
+    "id": 34,
+    "category": "Diacritics",
+    "fact": "Khmer uses 'register-shifter' diacritics—'មូសិកទន្ត' (Muesikatoan, two vertical ticks) and 'ត្រីស័ព្ទ' (Treisapt, a wavy mark)—to artificially force a first-series consonant into the second series, or vice versa."
+  },
+  {
+    "id": 35,
+    "category": "Diacritics",
+    "fact": "When a register-shifter diacritic collides visually with a superscript vowel above a consonant, the diacritic often drops down and transforms into a small subscript 'ុ' shape beneath the letter."
+  },
+  {
+    "id": 36,
+    "category": "Typography",
+    "fact": "Because Khmer Unicode took years to gain widespread adoption after its introduction—only becoming standard around 2009—Cambodian graphic designers spent over a decade relying on legacy non-Unicode 'Limon' fonts that mapped Khmer glyphs onto standard QWERTY Latin keys."
+  },
+  {
+    "id": 37,
+    "category": "Modern Design",
+    "fact": "Cambodian type designer Danh Hong single-handedly created and released over 50 free, open-source Khmer fonts—including 'Khmer OS' and 'Moul'—which became the digital backbone of modern Cambodian computing and street signage."
+  },
+  {
+    "id": 38,
+    "category": "Technology",
+    "fact": "Because Khmer contains over 120 combinable characters and subscripts, fitting the script onto smartphone screens led to a 'Wild West' of competing mobile keyboard layouts, as no single layout has been universally standardized."
+  },
+  {
+    "id": 39,
+    "category": "Regional Variations",
+    "fact": "Khmer-speaking communities also live in other countries, and some of them preserve older pronunciations — such as the final 'r' sound that disappeared from the speech of Phnom Penh."
+  },
+  {
+    "id": 40,
+    "category": "Religious Heritage",
+    "fact": "For centuries, sacred Buddhist Pali manuscripts and protective yantras across the region were written in a calligraphic form of the Khmer script, regarded as holier than everyday writing."
+  },
+  {
+    "id": 41,
+    "category": "Linguistics",
+    "fact": "The consonants 'ដ' (dâ) and 'ឌ' (dô) are pronounced as implosive 'd' sounds (formed by pulling air slightly inward), a phonetic feature shared with Vietnamese and neighboring Mon-Khmer languages."
+  },
+  {
+    "id": 42,
+    "category": "Phonetics",
+    "fact": "The letter 'ប' (bâ) is uniquely versatile: it is pronounced as an implosive 'b' before vowels, shifts to a 'p' sound when paired with a diacritic or subscript, and acts as an unreleased 'p' at the end of a syllable."
+  },
+  {
+    "id": 43,
+    "category": "Evolution",
+    "fact": "Inscriptions carved on the walls of Angkor Wat during the 12th century look noticeably more angular and square than modern Khmer, which gradually rounded its curves over centuries to prevent tearing fragile palm-leaf manuscripts."
+  },
+  {
+    "id": 44,
+    "category": "Manuscripts",
+    "fact": "Before modern paper, Khmer texts were inscribed onto dried Corypha palm leaves ('ស្លឹករឹត' / Sleuk Rith) using a sharp metal stylus, and then rubbed with soot and oil so the dark pigment would settle into the carved grooves."
+  },
+  {
+    "id": 45,
+    "category": "Etymology",
+    "fact": "The Khmer word for alphabet, 'អក្ខរក្រម' (âkkhârôkrâm), comes directly from Sanskrit ('akṣara' meaning imperishable letter, and 'krama' meaning order or sequence)."
+  },
+  {
+    "id": 46,
+    "category": "Diacritics",
+    "fact": "The diacritic 'រះមុខ' (Reahmukh, 'ះ') looks like a Western colon at the end of a syllable, but instead of marking a pause, it adds an abrupt, breathy 'h' sound after a short vowel."
+  },
+  {
+    "id": 47,
+    "category": "Diacritics",
+    "fact": "A small circle placed above a consonant, called 'និគ្គហិត' (Nikahit, 'ំ'), adds a nasal 'm' sound to the end of the syllable (for example, turning 'ក' into 'កំ' / kâm)."
+  },
+  {
+    "id": 48,
+    "category": "Punctuation",
+    "fact": "Khmer includes a specialized punctuation mark called 'កាកបាទ' (Kakabat, '៎'), shaped like a small plus sign above a letter, used to add an exclamation or rising emotional inflection to particles and interjections."
+  },
+  {
+    "id": 49,
+    "category": "Punctuation",
+    "fact": "To abbreviate long words or formal titles, Khmer uses a unique symbol called 'បេយ្យាល' (Beyyal, '។ល។'), which functions identically to 'etc.' in English."
+  },
+  {
+    "id": 50,
+    "category": "Calligraphy",
+    "fact": "A third major traditional style, 'Aksar Khom', features sharp, geometric angles and heavy top strokes, bridging the gap between ancient Angkorian stone carvings and modern 'Aksar Mul' round lettering."
+  },
+  {
+    "id": 51,
+    "category": "Language Structure",
+    "fact": "Unlike English, where prefixes and suffixes are tacked onto the ends of words, Khmer frequently uses 'infixes'—inserting a consonant or syllable directly inside the middle of a root word to turn a verb into a noun."
+  },
+  {
+    "id": 52,
+    "category": "Independent Vowels",
+    "fact": "Four of Khmer's independent vowels ('ឫ', 'ឬ', 'ឭ', 'ឮ') are technically vocalic liquids inherited from Sanskrit, representing standalone 'r' and 'l' vowel sounds rather than traditional 'a, e, i, o, u' vowels."
+  },
+  {
+    "id": 53,
+    "category": "Alphabet Order",
+    "fact": "The 33 Khmer consonants are not arranged randomly; they are organized strictly by place of articulation in the mouth—starting at the back of the throat (velars), moving forward to the palate, teeth, and ending at the lips (labials)."
+  },
+  {
+    "id": 54,
+    "category": "Currency Symbol",
+    "fact": "The symbol for the Cambodian currency, the Riel ('៛'), is encoded directly inside the main Khmer Unicode block (U+17DB) and is derived from the Khmer letter 'រ' (rô)."
+  },
+  {
+    "id": 55,
+    "category": "Digital Rendering",
+    "fact": "Rendering Khmer digitally requires complex OpenType shaping engines because a single syllable can stack up to three vertical layers (a base consonant, a subscript consonant, a second subscript, plus vowels and diacritics above and below) within one horizontal character slot."
+  }
+]

@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+/* palette derived from the KHarbonCopy logo: red #ff3131, royal blue #004aad, map blue #6a93cf */
+:root {
+  --bg: #f4f6fa;
+  --panel: #ffffff;
+  --sunken: #eef1f7;
+  --ink: #111827;
+  --muted: #667085;
+  --line: #e2e7f0;
+  --accent: #004aad;
+  --accent-ink: #ffffff;
+  --brand-red: #ff3131;
+  --brand-map: #6a93cf;
+  --src: #e5322b;
+  --ref: #2f6fd6;
+  --good: #16a34a;
+  --warn: #c2810c;
+  --shadow: 0 1px 2px rgb(16 24 40 / 0.04), 0 4px 16px -6px rgb(16 24 40 / 0.08);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0e14;
+    --panel: #121620;
+    --sunken: #1a1f2b;
+    --ink: #e8ecf4;
+    --muted: #8d97ab;
+    --line: #252c3a;
+    --accent: #5b8fff;
+    --accent-ink: #0b0e14;
+    --brand-red: #ff5a52;
+    --brand-map: #7fa6e0;
+    --src: #ff6b5e;
+    --ref: #6f9bff;
+    --good: #4ade80;
+    --warn: #f0b44c;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -10px rgb(0 0 0 / 0.5);
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-panel: var(--panel);
+  --color-sunken: var(--sunken);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-brand-red: var(--brand-red);
+  --color-brand-map: var(--brand-map);
+  --color-src: var(--src);
+  --color-ref: var(--ref);
+  --color-good: var(--good);
+  --color-warn: var(--warn);
+  --shadow-card: var(--shadow);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-brand: var(--font-opiated), var(--font-inter), sans-serif;
+  --font-mono: var(--font-jbmono), ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-image:
+    radial-gradient(1200px 400px at 10% -10%, color-mix(in srgb, var(--brand-map) 14%, transparent), transparent 60%),
+    radial-gradient(900px 300px at 100% -5%, color-mix(in srgb, var(--brand-red) 7%, transparent), transparent 60%);
+  background-repeat: no-repeat;
+}
+
+input[type="range"] {
+  accent-color: var(--accent);
+  height: 4px;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+/* thin scrollbars for side panels */
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+.chart text {
+  font-size: 10px;
+  fill: var(--muted);
+  font-family: var(--font-mono);
+}
+
+@keyframes indeterminate {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(250%); }
+}
