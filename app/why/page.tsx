@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Wordmark from "@/components/Wordmark";
 import LinkButton from "@/components/LinkButton";
 import Toc from "@/components/explainer/Toc";
+import SectionHeading from "@/components/SectionHeading";
 
 const whyDescription =
   "Why KHarbonCopy exists: the gap between Latin and Khmer type is still two to three orders of magnitude wide. A starting point for Cambodian designers and a fast route to campaign fonts — never a substitute for them.";
@@ -47,27 +48,10 @@ const TOC = [
 
 /* ------------------------------------------------------------------ building blocks */
 
-/** Tilt of a section number: -30° plus a jitter in [-8°, +8°].
- *  Seeded by the number itself, so server and client render the same angle (no hydration mismatch). */
-function numberTilt(n: string): number {
-  const x = Math.sin(Number(n) * 12.9898 + 78.233) * 43758.5453;
-  const r = x - Math.floor(x); // pseudo-random in [0, 1)
-  return Math.round((-30 + (r * 2 - 1) * 8) * 10) / 10;
-}
-
 function Section({ id, n, title, kicker, children }: { id: string; n: string; title: string; kicker?: string; children: React.ReactNode }) {
   return (
     <section id={id} className="scroll-mt-24 border-t border-line pb-14 pt-20 first:border-t-0 sm:pt-24">
-      {/* oversized, rotated section number centred on the heading, half of it in the left gutter.
-          Its rotated box spans ~±90px vertically (sm: ±100px), so the top padding keeps it clear of the divider. */}
-      <div className="relative isolate">
-        <span aria-hidden
-          className="pointer-events-none absolute left-0 top-1/2 -z-10 -translate-x-[12%] -translate-y-1/2 sm:-translate-x-[35%] select-none font-mono text-[6rem] font-bold leading-none tracking-tighter text-accent opacity-25 sm:text-[8rem]"
-          style={{ rotate: `${numberTilt(n)}deg` }}>
-          {n}
-        </span>
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">{title}</h2>
-      </div>
+      <SectionHeading n={n} title={title} />
       {kicker && <p className="mt-3 max-w-3xl text-lg leading-relaxed text-muted">{kicker}</p>}
       <div className="mt-8 max-w-3xl space-y-5 text-[15.5px] leading-[1.75] text-ink/90">{children}</div>
     </section>

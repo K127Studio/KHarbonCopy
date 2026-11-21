@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Wordmark from "@/components/Wordmark";
 import LinkButton from "@/components/LinkButton";
 import Toc from "@/components/explainer/Toc";
+import SectionHeading from "@/components/SectionHeading";
 import { DistanceDemo, FourierDemo, LineSearchDemo, WaveDemo } from "@/components/explainer/Demos";
 
 const howDescription =
@@ -32,9 +33,8 @@ export const metadata: Metadata = {
 
 function Section({ id, n, title, kicker, children }: { id: string; n: string; title: string; kicker: string; children: React.ReactNode }) {
   return (
-    <section id={id} className="scroll-mt-24 border-t border-line py-14 first:border-t-0">
-      <div className="mb-1 font-mono text-xs text-accent">{n}</div>
-      <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">{title}</h2>
+    <section id={id} className="scroll-mt-24 border-t border-line pb-14 pt-20 first:border-t-0 sm:pt-24">
+      <SectionHeading n={n} title={title} sidebarLeft />
       <p className="mt-3 max-w-3xl text-lg leading-relaxed text-muted">{kicker}</p>
       <div className="prose-k mt-8 max-w-3xl space-y-5 text-[15.5px] leading-[1.75] text-ink/90">{children}</div>
     </section>
@@ -97,7 +97,7 @@ const TOC = [
 
 export default function HowItWorks() {
   return (
-    <div className="min-h-dvh font-sans">
+    <div className="min-h-dvh overflow-x-clip font-sans">
       <header className="sticky top-0 z-10 border-b border-line bg-panel/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
           <a href="/" className="flex items-center gap-3">
@@ -132,7 +132,7 @@ export default function HowItWorks() {
         </div>
       </div>
 
-      <div className="mx-auto grid max-w-6xl gap-10 px-5 pb-24 lg:grid-cols-[220px_1fr]">
+      <div className="mx-auto grid max-w-6xl gap-10 px-5 pb-24 lg:grid-cols-[220px_1fr] lg:gap-x-20">
         <nav className="hidden lg:block">
           <Toc items={TOC} />
         </nav>
